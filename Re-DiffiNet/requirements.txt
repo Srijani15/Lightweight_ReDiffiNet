@@ -1,0 +1,6 @@
+# Active train.py/test.py pipeline only. Preserve the server's CUDA torch build.
+# Check dependencies first; do not automatically reinstall torch on the server.
+torch>=2.3,<3
+monai==1.4.0
+numpy>=1.24,<2
+tensorboard>=2.14,<3

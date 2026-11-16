@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Training outputs
+outputs/
+output/
+checkpoints/
+runs/
+tensorboard/
+wandb/
+logs/
+
+# BraTS datasets and generated arrays
+BraTS2023_split/
+ReDiffiNet_Data_Fold0_Clean/
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+
+# Experiment outputs
+ReDiffiNet_Output*/
+UNet_Output*/
+
+# Ignore generated files recursively
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.pyc
+*.log
+
+# Generated reports and experiment outputs
+rediffinet_audit_report.txt
